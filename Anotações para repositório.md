@@ -84,12 +84,12 @@
 
   **Exemplo**: Site de vendas que só aceita pagamentos por cartão. Quando o cliente não tiver o cartão, não será possível realizar a compra. Quando for variável, utilizar "", apenas quando for texto.
 
-  ![](D:\Dio\Exemplo de Tomada de decisão.png)
+  ![](https://drive.google.com/file/d/18Z_yFFfIcLyDth4uQpFA9gLBkKgIgS6L/view?usp=sharing)
 
+  
 
+  **Concatenação**: Designa a operação de unir o conteúdo de 2 strings (sequência de caracteres).
 
-- **Concatenação**: Designa a operação de unir o conteúdo de 2 strings (sequência de caracteres).
-
-  **Exemplo**:
+- **Exemplo**:
 
   ![](D:\Dio\Exemplo de concatenação.png)
