@@ -89,3 +89,63 @@
 - **Exemplo**:
 
   ![Exemplo de concatenação](https://user-images.githubusercontent.com/91347461/153035269-8ebbf322-3ce2-4777-b9e2-426ef4868d45.png)
+
+# Primeiros passos para desenvolvimento web
+
+
+
+- **TCP/IP**
+
+  - Protocolos de comunicação entre computadores em rede
+
+  - Transmission Control Protocol (TCP)
+
+  - Internet Protocol (IP)
+
+  - Modelos de camadas
+
+    **Exemplo**:
+
+    1. Física (ex.: Placa de rede)
+
+    2. Rede (ex.: IP)
+
+    3. Transporte (ex.:TCP, UDP)
+
+    4. Aplicações (ex.:FTP, SMTP, HTTP)
+
+       
+
+       
+
+       ​                  **TCP X UDP**
+
+  
+
+- **UDP**
+
+  - Rápido
+  - Não confiável
+  - Carro do ovo (dispara a info mas não sabe quem está recebendo)
+  - Livestream
+
+- **TCP**
+
+  - Voltado à conexão
+  - Handshake (dispara a info e sabe quem está recebendo)
+  - Integridade, ordem dos dados.
+  - Aplicativo de mensagens de texto
+
+**Portas**(ports)
+
+- As "Ports" por onde dados sairão e chegarão:
+
+  
+
+  - 20: FTP (Apenas para enviar arquivos)
+  - 22: SSH (Conexão segura entre computadores)
+  - 25: SMTP (Envio de e-mails)
+  - 53: DNS (Tradutor para números IP's os endereços dos sites dos navegadores)
+  - 80: HTTP (Protocolo de Transferência de Hipertexto. Realiza uma comunicação de sistemas de dados entre servidores e computadores)
+  - 443: HTTPS (É a implementação do protocolo HTTP sobre uma camada adicional de segurança que utiliza o protocolo SSL/TLS. Essa camada adicional permite que os dados sejam transmitidos por meio de uma conexão criptografada e que se verifique a autenticidade do servidor e do cliente por meio de certificados digitais.)
+
