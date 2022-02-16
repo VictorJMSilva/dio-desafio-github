@@ -600,3 +600,28 @@ Para inserir uma imagem
 
 
 
+
+
+# Bootstrap
+
+
+
+- Framework para desenvolvimento de sites responsivos.
+- Possui vasta biblioteca de componentes que facilita desenvolvimento de páginas web.
+- Um dos frameworks mais conhecidos e usados para front-end.
+
+- Baixar boostrap compilado JS e CSS.
+
+- Arquivos com terminação apenas css são mais pesados. Demora mais para carregar a página.
+
+- Arquivos com terminação min.css são mais leves. Ideal para um carregamento mais rápido da página.
+
+- Div Container não pega a página inteira, para pegar tem que usar container-fluid.
+
+  
+
+  
+
+  
+
+  
