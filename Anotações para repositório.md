@@ -609,19 +609,54 @@ Para inserir uma imagem
 - Framework para desenvolvimento de sites responsivos.
 - Possui vasta biblioteca de componentes que facilita desenvolvimento de páginas web.
 - Um dos frameworks mais conhecidos e usados para front-end.
-
 - Baixar boostrap compilado JS e CSS.
-
 - Arquivos com terminação apenas css são mais pesados. Demora mais para carregar a página.
-
 - Arquivos com terminação min.css são mais leves. Ideal para um carregamento mais rápido da página.
-
 - Div Container não pega a página inteira, para pegar tem que usar container-fluid.
 
-  
 
-  
 
-  
 
+
+# Recriando a interface do Netflix
+
+- Quando for referenciar um TAG do HTML, não precisa colocar ponto antes. Ex: "header"
+
+- Quando for referenciar uma class, precisa colocar o ponto antes. Ex: ".container"
+
+- Usar *{} para se referir a todo o conteúdo que está dentro do site não fique com espaços.
+
+  Ex: *{
+
+  margin: 0;
+
+  padding: 0;
+
+  box-sizing: border-box; // para delimitar o conteúdo dentro da box
+
+  }
   
+- text-decorantion:none (ele remove a linha do texto)
+
+- Para dar efeito de mouse em cima, usar no css :hover
+
+# Introdução ao JavaScript
+
+- Interpretada
+- Baseada em protótipos 
+- Multiparadigma
+- Aplicações 
+  - WEB
+  - Mobile
+  - Smartwatches
+  - Games
+  - Internet das coisas
+  - APIs
+- Constantes em JavaScript são escritas em maiúsculo, já variáveis em minúsculo.
+- Função
+  - function soma (a, b) {
+  - return a + b;
+  - }
+  - O parênteses serve pra declarar parâmetros, tipo function soma (a, b, c ....)
+
+- Array = lista
