@@ -658,5 +658,272 @@ Para inserir uma imagem
   - return a + b;
   - }
   - O parênteses serve pra declarar parâmetros, tipo function soma (a, b, c ....)
-
 - Array = lista
+
+- var = Escopo global e local, pode ter seu valor alterado, se não tiver um valor inicial será tratada como null;
+- let = Escopo local de bloco, pode ter seu valor alterado se não tiver um valor inicial será tratada como null;
+- const = Escopo local de bloco, somente leitura, o valor inicial obrigatório e não pode ser alterado.
+- Escopo global = Quando a variável é declarada fora de qualquer bloco, sua visibilidade fica disponível em todo código.
+- Escopo local = Quando a variável é declarada dentro de um bloco, sua visibilidade pode ficar disponível ou não.
+
+- = é atribuição
+- == é para comparação de valores
+- === é para comparação de valores e tipos
+
+- && - "e" considera que todos os valores sejam true;
+-  || - "ou"  considera que qualquer valor seja true;
+- ! - "não" inverte o valor de true para false ou vice-versa;
+
+- forEach() - Itera um array;
+- push() - adiciona item no final do array;
+- pop() - remover item no final do array;
+- shift() - remove item no início do array;
+- unshift() - adiciona item no início do array;
+- indexOf() - retorna o ínidce de um valor;
+- splice() - remove ou substitui um item pelo índice;
+- slice() - retorna uma parte de um array existente;
+
+### Orientação a objetos
+
+Paradigmas
+
+- Imperativos: Foca em como você irá solucionar o problema.
+- Declarativo: É o que você irá fazer.
+
+
+
+- Pilares
+  - Herança
+  - Polimorfismo
+  - Encapsulamento
+  - Abstração
+
+
+
+- Abstração: Processo que consiste em isolar um aspecto determinado de um estado de coisas relativamente complexo, a fim de simplificar a sua avaliação, classificação ou par a permitir a comunicação do mesmo.
+
+- Herança: Objeto que herda a propriedades e métodos dos objetos anteriores.
+- Encapsulamento: Cada classe tem propriedades e métodos independentes do restante do código.
+- Polimorfismo: Objetos podem herdar mesma classe pai, mas se comportarem de forma diferente quando invocamos seus métodos.
+
+### Protótipos e classes 
+
+- São esqueletos de todos os objetos. Os objetos JavaScript herdam propriedades e métodos de um prototype. Objeto Object.prototype está no topo desta cadeia.
+- Classes: "Syntatic sugar" uma sintaxe feita para facilitar a escrita.
+
+- Constructor: Ele constrói a classe, se você atribuir parâmetros, ele atribui os parâmetros a certos valores dentro da classe.
+
+  - Ex: constructor(type = 'animal'){
+
+    this.type = type
+
+    }
+
+- Getter: Ele retorna o tipo 
+- Setter: Determina que outro valor
+- Super(): Manda pra função pai os parâmetros que estão nela.
+- método: makeSound
+
+## Operadores
+
+Tipos:
+
+- Aritmética
+
+  ![Aritmetica](https://user-images.githubusercontent.com/91347461/155821486-9d57ce4a-ed0d-4020-a409-bc269e2dd912.png)
+
+- Atribuição
+
+  ![atribuiçao](https://user-images.githubusercontent.com/91347461/155821462-af0c6929-fa3b-4609-8504-015256393cd8.png)
+
+- Comparação
+
+  ![comparacao](https://user-images.githubusercontent.com/91347461/155821574-389311a8-7d89-4f2c-9db3-910bc4926b56.png)
+
+- Lógica
+
+  ![logica](https://user-images.githubusercontent.com/91347461/155821632-a6a19ac5-951e-45a6-bd90-3806514ec14e.png)
+
+- Condicional 
+
+​	
+
+![condicional](https://user-images.githubusercontent.com/91347461/155821683-d75fe232-8cf2-4be0-b55f-8c4cdf36cc11.png)
+
+## Funções
+
+- Estrutura:
+
+  - Variáveis criadas dentro de uma função apenas podem ser utilizadas dentro dela.
+
+  - Exemplo:
+
+    function nome(parametros){
+
+    //instruções
+
+    }
+
+  - return: Quando usado, ele para a função e retorna o valor para ser usada em outras funções.
+
+  - Ex:
+
+    const soma = function (a, b) {
+
+    ​	return a + b;
+
+    }
+
+​	
+
+​				soma(1, 2) //3
+
+​				soma(5, 4) //9
+
+### Função autoinvocável
+
+- é uma função anônima entre parênteses, seguidapor outro par de parênteses, seguida por outro par de parênteses, que representa sua chamada.
+
+
+
+
+
+### Função Callbacks
+
+- Tem maior controle sobre as ordens de chamadas.
+
+  ![callbacks](https://user-images.githubusercontent.com/91347461/155850670-b9576e00-e155-4ae1-9247-1bcbfe0a777b.png)
+
+
+
+### Arrays
+
+- Spread: uma forma de lidar separadamente com elementos. O que era parte de um array se torna um elemento independente.
+
+
+
+![spread](https://user-images.githubusercontent.com/91347461/155850866-2fa3ce49-04ae-40d3-87a2-32886e61abd0.png)
+
+
+
+- Rest: Combina os argumentos em uma array. O que era um elemento independente se torna parte de um array.
+
+  ![rest](https://user-images.githubusercontent.com/91347461/155850951-9dc85914-b274-4c00-a7d5-514eb4798839.png)
+
+
+
+### Loops
+
+- if/else: 
+  - If: Caso a condição seja verdadeira.
+  - else: Caso a condição seja falsa.
+
+![ifelse](https://user-images.githubusercontent.com/91347461/155851684-002e0e8b-2fe9-4a84-a273-569e0fe29683.png)
+
+
+
+### Switch
+
+- Usado quando tem muitas verificações a fazer.
+  - Equivale a uma comparação de tipo e valor (===).
+  - Sempre precisa de um valor "default".
+  - Ideal para quando se precisa comparar muitos valores.
+
+![switch](https://user-images.githubusercontent.com/91347461/155852068-bc112aa9-2703-4921-9926-961da84312d7.png)
+
+
+
+### For
+
+- for: é um loop dentro de elementos iteráveis (arrays, strings).
+- for...in: Loop de propriedades enumeráveis.
+
+![forin](https://user-images.githubusercontent.com/91347461/155852351-97236119-7bf8-433a-a31d-b62659bebadc.png)
+
+
+
+- for...of: loop entre estruturas iteráveis (arrays, strings).
+
+![forof](https://user-images.githubusercontent.com/91347461/155852366-c295ae52-bcbd-49b6-852e-de91c98e58cc.png)
+
+
+
+### While
+
+- Executa instruções até que a condição se torna falsa.
+
+  ![while](https://user-images.githubusercontent.com/91347461/155852530-1837c094-daca-402b-9b0e-928269e5eeea.png)
+
+- Do...While: Executa instruções até que a condição se torne falsa.
+
+  ![dowhile](https://user-images.githubusercontent.com/91347461/155852543-8482aa31-96a0-4462-8d8c-acdd5f6c1c60.png)
+
+
+
+### This
+
+- É uma palavra referência para o contexto que você está.
+
+- No exemplo, this refere-se ao objeto pessoa.
+
+  ![this](https://user-images.githubusercontent.com/91347461/155852654-24cab47c-e498-46f9-9099-e64afa5c5b33.png)
+
+## Coleções
+
+- Map: é uma coleção de arrays no formato [chave, valor]; e pode ser iterado por um loop for...of
+
+- Métodos:
+
+  ![metmap](https://user-images.githubusercontent.com/91347461/155856503-9c68bad5-6d16-4979-9c4b-b6f7ff60692f.png)
+
+- Set: São estruturas que contém valores únicos, que não se repetem nunca.
+
+- Métodos:
+
+![metset](https://user-images.githubusercontent.com/91347461/155856513-1cbdf5b6-778a-4969-9e8a-752bfcd1ba42.png)
+
+- Set vs Array: Possui valores únicos;
+- Em vez da propriedade length, consulta-se o número de registros pela propriedade size;
+- Não possui os métodos map, filter, reduce etc.
+
+
+
+## JavaScript Assíncrono
+
+- Que não ocorre ou não se efetiva ao mesmo tempo.
+
+
+
+### Promises
+
+- Inicialmente, seu valor é desconhecido. Ela pode, então, ser resolvida ou rejeitada.
+- Tem 3 estados: Pendente, completada ou rejeitada.
+
+### Async/await
+
+- Await para o código para esperar a promisse resolver, aí somente depois o código continua rodando.
+
+### API
+
+- É uma forma de intermediar os resultados do back-end com o que é apresentado no front-end.
+
+  
+
+## D.O.M
+
+
+
+- DOM HTML é um padrão de como acessar e modificar os elementos HTML de uma página.
+
+### DOM VS BOM
+
+- BOM: Browser Object Model, é tudo que está dentro do objeto window.
+
+## Debugging e Error Handling
+
+- Error do ECMAScript : Erro que acontece em tempo de execução. Ele avisa que algo não foi declarado, ou faltou alguma pontuação. Composto por: Mensagem, nome do erro, linha do erro e callstack.
+- DOMException: Erro relacionado ao DOM.
+- Throw: Ela verifica se a string enviada é um palindromo. 
+- O return retorna uma string qualquer e o throw retorna o objeto de erro.
+- Try...Catch: Verifica se um determinado pedaço de código tem um erro.
+- Finally: É uma instrução que vai ser chamada independente se tem um erro ou não.
